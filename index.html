@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/sanduba.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <title>Monte seu pedido</title>
 </head>
 <body>
     <div class="header"> 
-        <h1>Box Burguer</h1>
-        <h3>Melhor sanduiche da região</h3>
-        <nav>
-            <a href="#">home</a>
-            <a href="#">contato</a>
-            <a href="#">Sobre-nós</a>
-        </nav>
+        <h1>box-burger</h1>
     </div>
      <div class="container">
         <form action="form.php" method="post">
+          <select name="pedido" required>
+            <option value="x-burger">X-burger</option>
+            <option value="box-cheddar">box-cheddar</option>
+                <option value="box-Cheddar-duplo">box-cheddar duplo</option>
+            <option value="combo-familia">combo familia</option>
+            <option value="box-triplo-burger">box triplo burger</option>
+          </select>
 
+          <select name="bebidas" required>
+            <option value="coca-cola">coca-cola</option>
+            <option value="fanta">fanta</option>
+            <option value="pepsi">pepsi</option>
+            <option value="guarana">guaraná</option>
+          </select>
+          <label for="nome">Nome do cliente:</label>
+          <input type="text" required minlength="4">
+
+          <input type="submit" value="Concluir pedido">
         </form>
      </div>
 </body>
