@@ -11,11 +11,7 @@
   <div class="header"> 
     <h1>Box Burger</h1>
     <h3>Melhor sanduiche da região</h3>
-    <nav>
-        <a href="#">home</a>
-        <a href="#">contato</a>
-        <a href="#">Sobre-nós</a>
-    </nav>
+  
 </div>
 <div class="logo">
     
@@ -23,13 +19,21 @@
  <div class="container">
     <form action="form.php" method="post">
         <label for="ipedido">faça seu pedido</label>
-        <select name="ipedido" id="">
+        <select name="ipedido" id="ipedido">
             <option value="xtudo">xtudo</option>
             <option value="xgourmet">xgourmet</option>
             <option value="combo">xgourmet + refri</option>
         </select>
+        <label for="isobre">sobremesa</label>
+
+        <select name="sobre" id="isobre">
+       <option value="sem">sem sobremesa</option>
+       <option value="sorvetem">sorvete de morango</option>
+       <option value="churros">churros</option>
+       <option value="milkshakeo">milkshake ovomaltine</option>
+        </select>
     </form>
  </div>
-     </div>
+     
 </body>
 </html>
