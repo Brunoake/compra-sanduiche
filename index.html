@@ -8,30 +8,28 @@
     <title>Monte seu pedido</title>
 </head>
 <body>
-    <div class="header"> 
-        <h1>box-burger</h1>
-    </div>
-     <div class="container">
-        <form action="form.php" method="post">
-          <select name="pedido" required>
-            <option value="x-burger">X-burger</option>
-            <option value="box-cheddar">box-cheddar</option>
-                <option value="box-Cheddar-duplo">box-cheddar duplo</option>
-            <option value="combo-familia">combo familia</option>
-            <option value="box-triplo-burger">box triplo burger</option>
-          </select>
-
-          <select name="bebidas" required>
-            <option value="coca-cola">coca-cola</option>
-            <option value="fanta">fanta</option>
-            <option value="pepsi">pepsi</option>
-            <option value="guarana">guaraná</option>
-          </select>
-          <label for="nome">Nome do cliente:</label>
-          <input type="text" required minlength="4">
-
-          <input type="submit" value="Concluir pedido">
-        </form>
+  <div class="header"> 
+    <h1>Box Burger</h1>
+    <h3>Melhor sanduiche da região</h3>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">contato</a>
+        <a href="#">Sobre-nós</a>
+    </nav>
+</div>
+<div class="logo">
+    
+</div>
+ <div class="container">
+    <form action="form.php" method="post">
+        <label for="ipedido">faça seu pedido</label>
+        <select name="ipedido" id="">
+            <option value="xtudo">xtudo</option>
+            <option value="xgourmet">xgourmet</option>
+            <option value="combo">xgourmet + refri</option>
+        </select>
+    </form>
+ </div>
      </div>
 </body>
 </html>
