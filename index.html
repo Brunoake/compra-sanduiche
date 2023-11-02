@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="import" href="fontes/gagalin.otf">
     <link rel="shortcut icon" href="images/sanduba.ico" type="image/x-icon">
     <title>Monte seu pedido</title>
 </head>
 <body>
     <div class="header"> 
-        <h1>Box Burguer</h1>
+        <h1>Box Burger</h1>
         <h3>Melhor sanduiche da região</h3>
         <nav>
             <a href="#">home</a>
@@ -16,9 +18,17 @@
             <a href="#">Sobre-nós</a>
         </nav>
     </div>
+    <div class="logo">
+        
+    </div>
      <div class="container">
         <form action="form.php" method="post">
-
+            <label for="ipedido">faça seu pedido</label>
+            <select name="ipedido" id="">
+                <option value="xtudo">xtudo</option>
+                <option value="xgourmet">xgourmet</option>
+                <option value="combo">xgourmet + refri</option>
+            </select>
         </form>
      </div>
 </body>
