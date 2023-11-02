@@ -1,4 +1,15 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'gagalin';
+    src: url('../fontes/gagalin.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body{
     background-color: black;
