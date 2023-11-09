@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/sanduba.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" >
+
     <title>Monte seu pedido</title>
 </head>
 <body>
@@ -18,20 +19,25 @@
 </div>
  <div class="container">
     <form action="form.php" method="post">
-        <label for="ipedido">faça seu pedido</label>
+        <label for="ipedido">seu pedido</label>
         <select name="ipedido" id="ipedido">
+            <option value="seu pedido">faça seu pedido  </option>
             <option value="xtudo">xtudo</option>
             <option value="xgourmet">xgourmet</option>
-            <option value="combo">xgourmet + refri</option>
+            <option value="combo">xgourmet + refri + gelo</option>
         </select>
-        <label for="isobre">sobremesa</label>
+        
 
+        <label for="isobre">sobremesa</label>
         <select name="sobre" id="isobre">
-       <option value="sem">sem sobremesa</option>
+       <option value="sem">peça sua sobremesaㅤ</option>
        <option value="sorvetem">sorvete de morango</option>
        <option value="churros">churros</option>
        <option value="milkshakeo">milkshake ovomaltine</option>
         </select>
+
+        <input type="button" value="concluir pedido">
+
     </form>
  </div>
      
