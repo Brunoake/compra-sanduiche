@@ -19,8 +19,8 @@ body{
 }
 
 .header{
-    background-color: transparent;
-    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.548);
+  
     padding: 9px;
    border-bottom-left-radius: 12px;
    border-bottom-right-radius: 12px;
@@ -44,8 +44,8 @@ padding-top: 20px;
    margin: auto;
     height: 40vh;
     width: 67vw;
-    background-color: transparent;
-    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.61);
+   
     text-align: center;
     border-radius: 10px;
 }
