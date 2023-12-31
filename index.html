@@ -9,36 +9,33 @@
     <title>Monte seu pedido</title>
 </head>
 <body>
-  <div class="header"> 
-    <h1>Box Burger</h1>
-    <h3>Melhor sanduiche da região</h3>
-  
-</div>
-<div class="logo">
-    
-</div>
+<header>
+        <h1>Box Burger</h1>
+        <h3>Melhor sanduiche da região</h3>
+</header>
+
  <div class="container">
-    <form action="form.php" method="post">
-        <label for="ipedido">seu pedido</label>
-        <select name="ipedido" id="ipedido">
-            <option value="seu pedido">sanduiche  </option>
-            <option value="xtudo">xtudo</option>
-            <option value="xgourmet">xgourmet</option>
-            <option value="combo">xgourmet + refri + gelo</option>
-        </select>
+
+    <main>
+        <form action="form.php" method="post">
+            <label for="ipedido">seu pedido</label>
+            <select name="ipedido" class="pedido-container">
+                <option value="seu pedido">sanduiche<option>
+                <option value="xtudo">xtudo</option>
+                <option value="xgourmet">xgourmet</option>
+                <option value="combo">xgourmet + refri +gelo</option>
+            </select>
         
-
-        <label for="isobre">sobremesa</label>
-        <select name="sobre" id="isobre">
-       <option value="sem"> sobremesaㅤㅤㅤㅤㅤ</option>
-       <option value="sorvetem">sorvete de morango</option>
-       <option value="churros">churros</option>
-       <option value="milkshakeo">milkshake ovomaltine</option>
-        </select>
-
-        <input type="button" value="concluir pedido">
-
-    </form>
+            <label for="sobremesa">sobremesa</label>
+            <select name="sobre" class="pedido-container">
+           <option value="sem"> sobremesa</option>
+           <option value="sorvetem">sorvete de morango</option>
+           <option value="churros">churros</option>
+           <option value="milkshakeo">milkshake ovomaltine</option>
+            </select>
+            <input type="button" value="concluir pedido" id="button">
+        </form>
+    </main>
  </div>
      
 </body>
