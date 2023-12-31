@@ -43,7 +43,13 @@ main form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90Vw;
+    height: 92Vw;
+}
+
+form > img {
+    width: 64px;
+    margin-top: -12px;
+    margin-bottom: 14px;
 }
 
 form label{
